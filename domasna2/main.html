@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="domasna2css.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Raleway&display=swap" rel="stylesheet">
+    <title>Place Your Order</title>
+</head>
+<body>
+    <form method = "post" action = #>
+        <table border = "1">
+            <thead>
+                <tr>
+                    <th colspan = "2">Pizza Customization</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td align="center">Name</td>
+                    <td>
+                        <label>
+                            <input class = "txt" name = "fullname" type = "text" size = "20">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">Pizza Toppings</td>
+                    <td>
+                        <label>
+                            <input name = "toppings" type = "radio" value = "supreme">
+                            Supreme
+                        </label><br>
+                        <label>
+                            <input name = "toppings" type = "radio" value = "vegeterian">
+                            Vegeterian
+                        </label><br>
+                        <label>
+                            <input name = "toppings" type = "radio" value = "hawaiian">
+                            Hawaiian
+                        </label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">Pizza Sauce</td>
+                    <td>
+                        <label>
+                            <select class = "txt" name = "pizzasauce">
+                                <option align="center">Tomato</option>
+                                <option align="center">Sour Cream</option>
+                                <option align="center">Olive Oil</option>
+                            </select>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">Optional Extras</td>
+                    <td>
+                        <label>
+                            <input name = "extras" type = "checkbox" value = "cheese">
+                            Extra cheese
+                        </label>
+                        <label>
+                            <input name = "extras" type = "checkbox" value = "gluten free">
+                            Gluten Free Base
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan = "2">
+                        <label>Delivery Instructions:<br>
+                            <textarea class="txt" name = "instructions" rows = "4" cols = "48"></textarea>
+                        </label>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan = "2">
+                        <input class="txt" type = "submit" value = "Order Now">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
